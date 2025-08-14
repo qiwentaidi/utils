@@ -1,4 +1,4 @@
-module utils
+module github.com/qiwentaidi/utils
 
 go 1.23.0
 

@@ -4,9 +4,9 @@ import (
 	"context"
 	"net"
 	"time"
-	arrayutil "utils/array"
 
 	"github.com/miekg/dns"
+	arrayutil "github.com/qiwentaidi/utils/array"
 )
 
 func Resolution(domain string, dnsServers []string, timeout int) (ips, cname []string, err error) {

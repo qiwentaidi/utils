@@ -3,7 +3,8 @@ package utils
 import (
 	"strconv"
 	"strings"
-	arrayutil "utils/array"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 )
 
 func ParsePort(ports string) (scanPorts []int) {

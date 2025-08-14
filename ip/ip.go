@@ -4,7 +4,8 @@ import (
 	"net"
 	"strconv"
 	"strings"
-	arrayutil "utils/array"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 )
 
 func ParseIPs(ipList []string) (ips []string) {
